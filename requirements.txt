@@ -1,0 +1,10 @@
+# FRECI modeling — Python 3.10. Install torch matching your CUDA first, then the rest.
+# torch (pick your CUDA build): pip install torch --index-url https://download.pytorch.org/whl/cu121
+transformers>=4.44,<4.50
+trl>=0.11,<0.13
+peft>=0.12
+accelerate>=0.34
+bitsandbytes
+datasets
+sentencepiece
+openai            
